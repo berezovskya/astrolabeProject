@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -9,22 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Firewatch
+namespace WpfApplication1
 {
-    // Interaction logic for ActivityDesigner1.xaml
-    public partial class ActivityDesigner1
+    /// <summary>
+    /// Логика взаимодействия для _16МенюАдмина.xaml
+    /// </summary>
+    public partial class _16МенюАдмина : Window
     {
-        public ActivityDesigner1()
+        public _16МенюАдмина()
         {
             InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
