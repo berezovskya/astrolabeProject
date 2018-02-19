@@ -1,0 +1,23 @@
+﻿<Window x:Class="Firewatch.Posetitel1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Firewatch"
+        mc:Ignorable="d"
+        Title="Posetitel1" Height="300" Width="478.723">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="236*"/>
+            <ColumnDefinition Width="235*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="34,112,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
+        <Label x:Name="label" Content="Пожарная часть Вашего любимого района&#xA;" HorizontalAlignment="Center" Margin="111,10,113,0" FontFamily="Arial" BorderBrush="Black" BorderThickness="0" Foreground="#FFF90C0C" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="38" Width="247">
+            <Label.Background>
+                <ImageBrush/>
+            </Label.Background>
+        </Label>
+        <Label x:Name="label1" Content="Посетитель" HorizontalAlignment="Center" Margin="112,48,0,0" VerticalAlignment="Top" Width="124" FontFamily="Eras ITC" Height="24"/>
+
+    </Grid>
+</Window>
