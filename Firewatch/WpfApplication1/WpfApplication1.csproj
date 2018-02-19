@@ -57,6 +57,9 @@
     <Compile Include="16МенюАдмина.xaml.cs">
       <DependentUpon>16МенюАдмина.xaml</DependentUpon>
     </Compile>
+    <Compile Include="26Онас.xaml.cs">
+      <DependentUpon>26Онас.xaml</DependentUpon>
+    </Compile>
     <Compile Include="4ВходВСистему.xaml.cs">
       <DependentUpon>4ВходВСистему.xaml</DependentUpon>
     </Compile>
@@ -65,6 +68,9 @@
     </Compile>
     <Compile Include="6Админ.xaml.cs">
       <DependentUpon>6Админ.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7МенюСтаршегоСмены.xaml.cs">
+      <DependentUpon>7МенюСтаршегоСмены.xaml</DependentUpon>
     </Compile>
     <Compile Include="8НовоеСобытие.xaml.cs">
       <DependentUpon>8НовоеСобытие.xaml</DependentUpon>
@@ -77,6 +83,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="26Онас.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="4ВходВСистему.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -86,6 +96,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="6Админ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="7МенюСтаршегоСмены.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
