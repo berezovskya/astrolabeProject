@@ -20,7 +20,7 @@ namespace Firewatch
          *  эта переменная не будет меняться. 
          *  Еще важный момент - надо чтобы у всех были одинаковые названия таблиц и столбцов в БД, 
          *  чтобы передавая запрос, он работал у всхех */
-        const SqlConnection conn = new SqlConnection("");
+        static SqlConnection conn = new SqlConnection("");
         public DataTable Select(string query){
             DataTable dt = new DataTable();
             try{

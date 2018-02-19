@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfApplication1.VisitorQuery"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="VisitorQuery" Height="1200" Width="700">
+    <Grid>
+        <TextBox Name="TBDate" HorizontalAlignment="Left" Height="23" Margin="85,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="TBTime" HorizontalAlignment="Left" Height="23" Margin="264,101,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="TBStatus" HorizontalAlignment="Left" Height="23" Margin="502,101,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Дата" HorizontalAlignment="Left" Margin="37,97,0,0" VerticalAlignment="Top"/>
+        <Label Content="Время" HorizontalAlignment="Left" Margin="214,97,0,0" VerticalAlignment="Top"/>
+        <Label Content="Статус" HorizontalAlignment="Left" Margin="452,97,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBAddress" HorizontalAlignment="Left" Height="23" Margin="85,133,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="214"/>
+        <Label Content="Адрес" HorizontalAlignment="Left" Margin="37,129,0,0" VerticalAlignment="Top"/>
+        <Label Content="СВОДКА" HorizontalAlignment="Left" Margin="37,160,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBDiedTotal" HorizontalAlignment="Left" Height="23" Margin="165,195,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Погибло всего" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBDiedChildren" HorizontalAlignment="Left" Height="23" Margin="165,226,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Погибло детей" HorizontalAlignment="Left" Margin="10,222,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBDiedWorkers" HorizontalAlignment="Left" Height="23" Margin="165,257,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Погибло сотрудников" HorizontalAlignment="Left" Margin="10,253,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBDiedAnimals" HorizontalAlignment="Left" Height="23" Margin="165,288,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.14,0.391"/>
+        <Label Content="Погибло животных" HorizontalAlignment="Left" Margin="10,284,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBSavedTotal" HorizontalAlignment="Left" Height="23" Margin="379,195,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Спасено всего" HorizontalAlignment="Left" Margin="220,191,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBSavedTech" HorizontalAlignment="Left" Height="23" Margin="379,226,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Спасено техники" HorizontalAlignment="Left" Margin="220,222,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBSavedValues" HorizontalAlignment="Left" Height="23" Margin="379,257,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.08,0.565"/>
+        <Label Content="Спасено мат. ценностей" HorizontalAlignment="Left" Margin="220,253,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBInjuredTotal" HorizontalAlignment="Left" Height="23" Margin="623,196,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Получили травмы всего" HorizontalAlignment="Left" Margin="442,191,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBInjuredChildren" HorizontalAlignment="Left" Height="23" Margin="623,227,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Получили травмы дети" HorizontalAlignment="Left" Margin="442,222,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBInjuredWorkers" HorizontalAlignment="Left" Height="23" Margin="623,258,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Получили травмы сотрудники" HorizontalAlignment="Left" Margin="442,253,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBDestroyedBuildings" HorizontalAlignment="Left" Height="23" Margin="445,330,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Уничтожено строений" HorizontalAlignment="Left" Margin="286,326,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBDestroyedApartments" HorizontalAlignment="Left" Height="23" Margin="445,361,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="50" RenderTransformOrigin="-0.08,0.565"/>
+        <Label Content="Уничтожено квартир" HorizontalAlignment="Left" Margin="286,357,0,0" VerticalAlignment="Top"/>
+        <Button Name="BNewQuery" Content="Новый запрос" HorizontalAlignment="Left" Margin="405,429,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click" Height="29"/>
+        <Button Name="BBack" Content="На главную" HorizontalAlignment="Left" Margin="526,429,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click" Height="29"/>
+        <Label Content="Пожарная часть вашего любимого района" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Посетитель" HorizontalAlignment="Left" Margin="311,41,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
