@@ -54,6 +54,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="10ДанныеДляЗапроса.xaml.cs">
+      <DependentUpon>10ДанныеДляЗапроса.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="11РедактированиеСобытия.xaml.cs">
+      <DependentUpon>11РедактированиеСобытия.xaml</DependentUpon>
+    </Compile>
     <Compile Include="16МенюАдмина.xaml.cs">
       <DependentUpon>16МенюАдмина.xaml</DependentUpon>
     </Compile>
@@ -75,10 +81,21 @@
     <Compile Include="8НовоеСобытие.xaml.cs">
       <DependentUpon>8НовоеСобытие.xaml</DependentUpon>
     </Compile>
+    <Compile Include="9успешное сохранение.xaml.cs">
+      <DependentUpon>9успешное сохранение.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Posetitel1.xaml.cs">
       <DependentUpon>Posetitel1.xaml</DependentUpon>
     </Compile>
     <Compile Include="Utils.cs" />
+    <Page Include="10ДанныеДляЗапроса.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="11РедактированиеСобытия.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="16МенюАдмина.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -104,6 +121,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="8НовоеСобытие.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="9успешное сохранение.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
