@@ -54,6 +54,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+<<<<<<< HEAD
     <Compile Include="AdministratorMenu.xaml.cs">
       <DependentUpon>AdministratorMenu.xaml</DependentUpon>
     </Compile>
@@ -62,6 +63,58 @@
       <DependentUpon>VisitorQuery.xaml</DependentUpon>
     </Compile>
     <Page Include="AdministratorMenu.xaml">
+=======
+    <Compile Include="16МенюАдмина.xaml.cs">
+      <DependentUpon>16МенюАдмина.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="26Онас.xaml.cs">
+      <DependentUpon>26Онас.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4ВходВСистему.xaml.cs">
+      <DependentUpon>4ВходВСистему.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="5Старший смены.xaml.cs">
+      <DependentUpon>5Старший смены.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="6Админ.xaml.cs">
+      <DependentUpon>6Админ.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7МенюСтаршегоСмены.xaml.cs">
+      <DependentUpon>7МенюСтаршегоСмены.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="8НовоеСобытие.xaml.cs">
+      <DependentUpon>8НовоеСобытие.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Posetitel1.xaml.cs">
+      <DependentUpon>Posetitel1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Utils.cs" />
+    <Page Include="16МенюАдмина.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="26Онас.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="4ВходВСистему.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="5Старший смены.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="6Админ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="7МенюСтаршегоСмены.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="8НовоеСобытие.xaml">
+>>>>>>> 9959de6bc8e4d91972e40147b2868791e64e2394
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -77,7 +130,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< HEAD
     <Page Include="VisitorQuery.xaml">
+=======
+    <Page Include="Posetitel1.xaml">
+>>>>>>> 9959de6bc8e4d91972e40147b2868791e64e2394
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

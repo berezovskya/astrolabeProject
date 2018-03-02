@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
+<<<<<<< HEAD
         Title="MainWindow" Height="700" Width="1200">
+=======
+        Title="MainWindow" Height="700" Width="1200" ResizeMode="NoResize">
+>>>>>>> 9959de6bc8e4d91972e40147b2868791e64e2394
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="107*"/>
+            <ColumnDefinition Width="259*"/>
+            <ColumnDefinition Width="302*"/>
+            <ColumnDefinition Width="73*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label" Content="Пожарная часть Вашего любимого района&#xA;" HorizontalAlignment="Center" Margin="24,10,71,0" FontFamily="Arial" BorderBrush="Black" BorderThickness="0" Foreground="#FFF90C0C" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="38" Width="466" FontSize="21.333" Grid.Column="1">
+            <Label.Background>
+                <ImageBrush/>
+            </Label.Background>
+        </Label>
+        <Label x:Name="label1" Content="Выберете себе роль" HorizontalAlignment="Center" Margin="326,48,394,0" VerticalAlignment="Top" Width="184" FontFamily="Eras ITC" Grid.ColumnSpan="2" Height="32" FontSize="18.667" Grid.Column="1"/>
+        <Button x:Name="button" Content="Посетитель" HorizontalAlignment="Left" Margin="351,131,0,0" VerticalAlignment="Top" Width="132" FontSize="16" Height="29" Grid.ColumnSpan="2" Grid.Column="1" Click="button_Click"/>
+        <Button x:Name="button_Copy" Content="Сотрудник ПЧ" HorizontalAlignment="Left" Margin="351,188,0,0" VerticalAlignment="Top" Width="132" FontSize="16" Height="29" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Button x:Name="button1" Content="О нас" Grid.Column="3" HorizontalAlignment="Left" Margin="33,637,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
+
     </Grid>
 </Window>
