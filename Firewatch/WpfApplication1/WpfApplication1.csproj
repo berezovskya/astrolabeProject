@@ -54,16 +54,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-<<<<<<< HEAD
-    <Compile Include="AdministratorMenu.xaml.cs">
-      <DependentUpon>AdministratorMenu.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Utils.cs" />
-    <Compile Include="VisitorQuery.xaml.cs">
-      <DependentUpon>VisitorQuery.xaml</DependentUpon>
-    </Compile>
-    <Page Include="AdministratorMenu.xaml">
-=======
     <Compile Include="16МенюАдмина.xaml.cs">
       <DependentUpon>16МенюАдмина.xaml</DependentUpon>
     </Compile>
@@ -114,7 +104,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="8НовоеСобытие.xaml">
->>>>>>> 9959de6bc8e4d91972e40147b2868791e64e2394
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -130,11 +119,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-<<<<<<< HEAD
-    <Page Include="VisitorQuery.xaml">
-=======
     <Page Include="Posetitel1.xaml">
->>>>>>> 9959de6bc8e4d91972e40147b2868791e64e2394
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -165,18 +150,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
