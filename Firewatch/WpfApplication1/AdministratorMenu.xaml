@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApplication1.AdministratorMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AdministratorMenu" Height="700" Width="1200">
+    <Grid>
+        <Label Content="Пожарная часть вашего любимого района" HorizontalAlignment="Left" Margin="304,30,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Выберите действие" HorizontalAlignment="Left" Margin="378,66,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button Name="BNewEvent" Content="Внести новое событие" HorizontalAlignment="Left" Margin="177,123,0,0" VerticalAlignment="Top" Width="221"/>
+        <Button Name="BEditEvent" Content="Редактировать событие" HorizontalAlignment="Left" Margin="177,148,0,0" VerticalAlignment="Top" Width="221"/>
+        <Button Name="BNewWorker" Content="Новый сотрудник" HorizontalAlignment="Left" Margin="177,191,0,0" VerticalAlignment="Top" Width="221"/>
+        <Button Name="BEditWorker" Content="Редактировать профиль сотрудника" HorizontalAlignment="Left" Margin="177,216,0,0" VerticalAlignment="Top" Width="221"/>
+        <Button Name="BDay" Content="Сводка за день" HorizontalAlignment="Left" Margin="423,123,0,0" VerticalAlignment="Top" Width="221"/>
+        <Button Name="BEditProfile" Content="Редактировать профиль" HorizontalAlignment="Left" Margin="177,263,0,0" VerticalAlignment="Top" Width="221"/>
+        <Button Name="BToMain" Content="На главную" HorizontalAlignment="Left" Margin="508,263,0,0" VerticalAlignment="Top" Width="221" Click="BToMain_Click"/>
+
+    </Grid>
+</Window>

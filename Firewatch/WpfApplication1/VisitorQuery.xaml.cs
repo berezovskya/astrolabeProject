@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Data;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -23,10 +24,25 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+        /// <summary>
+        /// Конструктор, с которым мы будем заполнять textbox'ы
+        /// </summary>
+        /// <param name="query"></param>
+        public VisitorQuery(string query){
+            DataTable dt = Utils.Select(query);
+        }
+
+        private void NewQuery_Click(object sender, RoutedEventArgs e)
+        {
+            //Posetitel1 p1 = new Posetitel1();
+            //p1.show();
+        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            MainWindow mw = new MainWindow();
+            mw.Show();
+            this.Close();
         }
     }
 }
