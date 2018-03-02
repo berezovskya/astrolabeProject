@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApplication1._9успешное_сохранение"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="_9успешное_сохранение" Height="700" Width="1200">
+    <Grid>
+        <Label x:Name="label" Content="Пожарная часть Вашего любимого района&#xA;" HorizontalAlignment="Center" Margin="360,10,366,0" FontFamily="Arial" BorderBrush="Black" BorderThickness="0" Foreground="#FFF90C0C" VerticalAlignment="Top" Height="38" Width="466" FontSize="21.333">
+            <Label.Background>
+                <ImageBrush/>
+            </Label.Background>
+        </Label>
+        <Label x:Name="label1_Copy" Content="Событие" HorizontalAlignment="Center" Margin="337,162,660,0" VerticalAlignment="Top" Width="195" FontFamily="Eras ITC" Height="42" FontSize="21.333"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="42" Margin="537,162,0,0" TextWrapping="Wrap" Text="Номер пожара" VerticalAlignment="Top" Width="169" TextChanged="textBox_TextChanged" FontSize="21.333"/>
+        <Label x:Name="label1_Copy1" Content="Успешно сохранено" HorizontalAlignment="Center" Margin="409,252,550,0" VerticalAlignment="Top" Width="233" FontFamily="Eras ITC" Height="42" FontSize="21.333"/>
+        <Button x:Name="button_Copy2" Content="На главную" HorizontalAlignment="Left" Margin="1056,629,0,0" VerticalAlignment="Top" Width="126" FontSize="16" Height="30"/>
+        <Button x:Name="button_Copy" Content="Меню" HorizontalAlignment="Left" Margin="902,629,0,0" VerticalAlignment="Top" Width="126" FontSize="16" Height="30"/>
+
+    </Grid>
+</Window>
