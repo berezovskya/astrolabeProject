@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication1"
         mc:Ignorable="d"
+<<<<<<< HEAD
+        Title="MainWindow" Height="700" Width="1200">
+=======
         Title="MainWindow" Height="700" Width="1200" ResizeMode="NoResize">
+>>>>>>> 9959de6bc8e4d91972e40147b2868791e64e2394
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="107*"/>

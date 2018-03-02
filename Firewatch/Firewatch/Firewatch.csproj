@@ -54,7 +54,18 @@
     <Compile Include="Posetitel2.xaml.cs">
       <DependentUpon>Posetitel2.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Page Include="ActivityDesigner1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="ActivityDesigner1.xaml.cs">
+      <DependentUpon>ActivityDesigner1.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+=======
     <Compile Include="Utils.cs" />
+>>>>>>> 9959de6bc8e4d91972e40147b2868791e64e2394
     <Page Include="Posetitel1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
